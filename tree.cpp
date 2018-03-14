@@ -45,9 +45,9 @@ void inorder(struct node *t)
     if (t == NULL)
         return;   
 	inorder(t->left);
-      
+  printf("%d \n",t->data);    
         inorder(t->right);
-  printf("%d \n",t->data);
+  
 }
 
 int main(){
